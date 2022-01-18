@@ -311,7 +311,7 @@ the screen. The bigger your container image becomes, the harder it will be to ea
 > install such commands before using them within `RUN` statements.
 {: .callout}
 
-## More fancy `Dockerfile` options (optional, for presentation or as exercises)
+## More fancy `Dockerfile` options
 
 We can expand on the example above to make our container image even more "automatic".
 Here are some ideas:

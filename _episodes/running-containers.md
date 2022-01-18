@@ -231,15 +231,9 @@ type `exit`.
 {: .language-bash}
 
 > ## Practice Makes Perfect
-> Can you find out the version of Linux installed on the `busybox` container image?
-> (Hint: If you search online, you'll find that there are a few different ways
-> to find out what version of Linux a computer or container is running. Because
-> the `busybox` container image is very simplified, you'll want to use a command that prints out
-> the contents of the file `/proc/version`.)
->
-> Can you also find the `busybox` program? What does it do? (Hint: try passing `--help`
+> Can you find the `busybox` program in a container created from the `busybox`
+> container image? What does it do? (Hint: try passing `--help`
 > to almost any command will give you more information.)
->
 >
 > > ## Solution 1 -- Interactive
 > >
@@ -250,10 +244,9 @@ type `exit`.
 > > ~~~
 > > {: .language-bash}
 > >
-> > Then try, running these commands
+> > Then try, running this command
 > >
 > > ~~~
-> > /# cat /proc/version
 > > /# busybox --help
 > > ~~~
 > > {: .language-bash}
@@ -267,18 +260,11 @@ type `exit`.
 >
 > > ## Solution 2 -- Run commands
 > >
-> > Run a busybox container, first with a command to read out the Linux version:
-> > ~~~
-> > $ docker container run busybox cat /proc/version
-> > ~~~
-> > {: .language-bash}
-> >
-> > Then run a container with a command to print out the busybox help:
+> > Run a busybox container with a command to print out the busybox help:
 > > ~~~
 > > $ docker container run busybox busybox --help
 > > ~~~
 > > {: .language-bash}
-> > Note that this command runs a `busybox` container twice, first to retrieve the version of Linux from the running container and then to run the `busybox` command within the busybox container that is started.
 > {: .solution}
 {: .challenge}
 
