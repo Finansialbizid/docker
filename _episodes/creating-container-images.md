@@ -1,6 +1,6 @@
 ---
 title: "Creating Your Own Container Images"
-teaching: 20
+teaching: 15
 exercises: 15
 questions:
 - "How can I make my own Docker container images?"
