@@ -116,5 +116,5 @@ episode_order:
     - lunch
     - advanced-containers
     - afternoon-break
-    - docker-image-examples
     - reproduciblity
+    - docker-image-examples
