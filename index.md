@@ -17,7 +17,7 @@ This course aims to introduce the use of containers with the goal of using them 
 {: .objectives}
 
 The material on this site corresponds to Day 1 of the course - covering Docker. Day 2 of the course will look at Singularity and 
-[the day 2 material is available on a separate site](https://epcced.github.io/2022-06-22_singularity_edi-wg/).
+[the day 2 material is available on a separate site](https://epcced.github.io/2022-06-21_singularity_edi-wg/).
 
 > ## Prerequisites
 >
