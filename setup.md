@@ -181,7 +181,7 @@ you request the account
 
 1. [Login to SAFE](https://safe.epcc.ed.ac.uk)
 2. Go to the Menu "Login accounts" and select "Request login account"
-3. Choose the `ta049` project “Choose Project for Machine Account” box and click "Next"
+3. Choose the ` ` project “Choose Project for Machine Account” box and click "Next"
 4.  Select the *ARCHER2* machine in the list of available machines
 5.  Click *Next*
 6.  Enter a username for the account and an SSH public
@@ -193,7 +193,7 @@ you request the account
         the process described below.
 7.  Click *Request*
 
-Now you have to wait for the course organiser to accept your request to register. When this has happened, your account will be created on ARCHER2.
+Now you have to wait for the course organiser to accept your request to register. When this has happened,your account will be created on ARCHER2.
 Once this has been done, you should be sent an email. _If you have not received an email but believe that your account should have been activated, check your account status in SAFE which will also show when the account has been activated._ You can then pick up your one shot initial password for ARCHER2 from your SAFE account.
 
 ### Log into ARCHER2
