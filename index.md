@@ -16,6 +16,10 @@ This course aims to introduce the use of containers with the goal of using them 
 > - Appreciate issues around reproducibility in software, understand how containers can address some of these issues and what the limits to reproducibility using containers are
 {: .objectives}
 
+The course will take place at [Western General Hospital, University of Edinburgh](https://www.archer2.ac.uk/training/locations/western-general).
+
+Details of the course, including registration links can be found on [the ARCHER2 website](https://www.archer2.ac.uk/training/courses/220620-containers/).
+
 The material on this site corresponds to Day 1 of the course - covering Docker. Day 2 of the course will look at Singularity and 
 [the day 2 material is available on a separate site](https://epcced.github.io/2022-06-21_singularity_edi-wg/).
 
