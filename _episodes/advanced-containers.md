@@ -193,6 +193,10 @@ and will stay there even when the container stops.
 > > /# ls
 > > ~~~
 > > {: .language-bash}
+> > ~~~
+> > Dockerfile  sum.py
+> > ~~~
+> > {: .output}
 > {: .solution}
 {: .challenge}
 
