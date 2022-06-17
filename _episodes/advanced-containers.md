@@ -87,6 +87,7 @@ directory `/temp` -- the target.
 > or the differences between these mount types in the course as it is more of an advanced
 > topic. You can find more information on the different mount types in
 > [the Docker documentation](https://docs.docker.com/storage/).
+{: .callout}
 
 Let's try running the command now:
 ~~~
