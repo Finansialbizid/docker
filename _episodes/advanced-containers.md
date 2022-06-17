@@ -216,7 +216,13 @@ $ pwd
 ~~~
 {: .language-bash}
 ~~~
-$ /Users/yourname/Desktop/docker-intro/sum
+/Users/yourname/Desktop/docker-intro/sum
+~~~
+{: .output}
+
+First, copy the Dockerfile you used for the previous example to this directory:
+~~~
+$ cp ../basic/Dockerfile .
 ~~~
 {: .language-bash}
 
