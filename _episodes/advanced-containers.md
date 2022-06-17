@@ -227,14 +227,27 @@ $ cp ../basic/Dockerfile .
 {: .language-bash}
 
 Let's add a new line to the `Dockerfile` we've been using so far to create a copy of `sum.py`.
-We can do so by using the `COPY` keyword.
+We can do so by using the `COPY` keyword:
 
 ~~~
 COPY sum.py /home
 ~~~
 
-This line will cause Docker to copy the file from your computer into the container's
-filesystem. Let's build the container image like before, but give it a different name:
+This line will cause Docker to copy the file from your computer into the container image's
+filesystem. 
+
+Add this line after the final `RUN` line in your Dockerfile. The final Dockerfile should 
+look like:
+
+~~~
+FROM alpine
+RUN apk add --update python3 py3-pip python3-dev
+RUN pip install cython
+COPY sum.py /home
+CMD ["python3", "--version"]
+~~~
+
+Let's build the container image like before, but give it a different name:
 
 ~~~
 $ docker image build -t alice/alpine-sum .
