@@ -308,7 +308,7 @@ the screen. The bigger your container image becomes, the harder it will be to ea
 
 > ## Security warning
 > Login credentials including passwords, tokens, secure access tokens or other secrets
-> must never be stored in a container. If secrets are stored, they are at high risk to
+> must never be stored in a container image. If secrets are stored, they are at high risk to
 > be found and exploited when made public.
 {: .callout}
 
